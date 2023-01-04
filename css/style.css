@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* 스타일시트 주석 */
+*{    /* html문서 내의 전체 태그에 스타일을 적용*/
+    margin: 0 auto;/*좌우 바깥쪽 여백을 자동 할당하여 중앙정렬로 만듬*/
+    padding: 0;/* 안쪽 여백을 없앰*/
+    list-style: none; /*html목록태그(ul,ol,li)를 사용한 부분에 목록스타일 나타나지 않도록 */
+    font-family: "맑은 고딕";
+    color: #333333; /* 컬러 가이드: 기본 텍스트의 색 */
+}
+body{
+    width: 1000px; /* 와이어프레임 너비 */
+    height: 650px; /* 와이어프레임 B+C+D 높이*/
+    background-color: #ffffff; /* 컬러 가이드: 배경색 */
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+/* 레이아웃의 각 크기를 정하고 박스요소들의 정렬(플로팅)을 맞추기 위한 작업*/
+
+header{
+    float: left;
+    position: absolute;
+}
+.top{
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+
+.logo{ /* 로고의 위치와 크기 */
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    float: left;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.navi>li{
+    float: left;
+    width: 180px;
+}
+.navi>li>a{
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333333;
+    color: #ffffff;
+}
+.navi>li>a:hover{
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.submenu{
+    float: left;
+    width: 180px;
+    height: 100%;
+    left: 180px;
+    top: 0px;
+    position: absolute;
+    background-color: #cccccc;
+    display: none;
+    z-index: 1;
+}
+
+.submenu>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #cccccc;
+    color: #ffffff;
+}
+.submenu>li>a:hover{
+    background-color: #969696;
+    color: #ffff00;
+}
+
+.imgslide{
+    float: right;
+    width: 800px;
+    height: 350px;
+    position: relative;
+}
+
+.imgslide>a{
+    display: block;
+    position: absolute;
+}
+
+.imgslide span{
+    width: 160px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    left: 40%;
+    top:45%;
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.contents{
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+
+.notice{
+    float: left;
+    width: 300px;
+}
+
+.tab{
+    float: left;
+    width: 300px;
+}
+
+.notice h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.notice ul{
+    float: left;
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.notice li span{
+    float: right;
+}
+
+.notice li:hover{
+    font-weight: bold ;
+}
+
+.gallay{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.gallay h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.gallay ul li{
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.gally img{
+    width: 80px;
+    height: 80px;
+}
+
+.gallay li:hover {
+    opacity: 0.5;
+}
+
+.shortcut{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.shortcut img{
+    float: right;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+.shortcut span{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin-left: 50px;
+}
+
+.btlog{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.copy{
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+.famliystie{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+footer{
+    float: right;
+}
+.bottom{
+    float: right;
+    width: 800px;
+    height: 100px;      
+}
