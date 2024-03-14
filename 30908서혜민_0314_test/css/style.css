@@ -1,0 +1,98 @@
+.box {
+    width: 1000px;
+    height: 650px;
+    float: left;
+}
+
+.left_box {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+
+.navi {
+    width: 200px;
+    height: 550px;
+    background-color: orange;
+    float: left;
+}
+
+.right_box {
+    width: 800px;
+    height: 100%;
+    float: left;
+}
+
+.slide {
+    width: 800px;
+    height: 350px;
+    background-color: yellow;
+    float: left;
+}
+
+.contents {
+    width: 800px;
+    height: 200px;
+    float: left;
+}
+
+.notice_box {
+    width: 280px;
+    height: 100%;
+    background-color: #999999;
+    float: left;
+}
+
+.banner_box {
+    width: 280px;
+    height: 100%;
+    background-color: #555555;
+    float: left;
+}
+
+.icon_box {
+    width: 240px;
+    height: 100%;
+    background-color: #333333;
+    float: left;
+}
+
+.footer {
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+.down_logo {
+    width: 200px;
+    height: 100%;
+    background-color: olive;
+    float: left;
+}
+
+.copyright {
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+
+.down_menu {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+    float: left;
+}
+
+.copy {
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    float: left;
+}
